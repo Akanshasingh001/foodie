@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:text="Categories"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:layout_width="187dp"
+        android:layout_height="123dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/cauliflower"
+        tools:ignore="ContentDescription,HardcodedText,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="125dp"
+        android:src="@drawable/orange"
+        tools:ignore="ContentDescription,ImageContrastCheck,MissingConstraints"
+        tools:layout_editor_absoluteX="233dp"
+        tools:layout_editor_absoluteY="71dp" />
+
+    <ScrollView
+        android:layout_width="150dp"
+        android:layout_height="8dp"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="199dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="UselessLeaf" />
+    </ScrollView>
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vegetables"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextFields,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fruits"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextFields,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="209dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        tools:ignore="HardcodedText,MissingConstraints,DuplicateSpeakableTextCheck"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="262dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="261dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bread"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="336dp"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bread"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextFields,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sweet"
+        tools:layout_editor_absoluteX="218dp"
+        tools:layout_editor_absoluteY="336dp"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText,MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sweet"
+        tools:ignore="Autofill,HardcodedText,LabelFor,MissingConstraints,TextFields,TouchTargetSizeCheck"
+        tools:layout_editor_absoluteX="269dp"
+        tools:layout_editor_absoluteY="476dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="521dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="521dp"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="42dp"
+        android:layout_height="95dp"
+        android:src="@drawable/back"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="-12dp"
+        tools:ignore="ContentDescription,MissingConstraints,VisualLintBounds" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
